@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+cloudtest-env/
+crewai-env/
+
+# Environment variable files
+*.env
+.env.*
+
+# Docker-related files
+*.log
+docker-compose.override.yml
+
+# VS Code and other IDEs
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Test output
+*.cover
+coverage.xml
+
+# Pytest cache
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# System files
+Thumbs.db
+ehthumbs.db
